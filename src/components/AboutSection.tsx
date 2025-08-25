@@ -14,7 +14,7 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
-            About <span className="text-primary">wawa.pk</span>
+            About <span className="text-primary">wawa</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Leading the digital transformation of Pakistani businesses through innovative technology solutions.
@@ -28,7 +28,7 @@ const AboutSection = () => {
                 Transforming Business Operations
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                wawa.pk is Pakistan's premier technology platform, specializing in comprehensive business solutions 
+                wawa is Pakistan's premier technology platform, specializing in comprehensive business solutions 
                 that streamline operations and drive growth. We understand the unique challenges faced by Pakistani 
                 businesses and provide tailored solutions that make a real difference.
               </p>

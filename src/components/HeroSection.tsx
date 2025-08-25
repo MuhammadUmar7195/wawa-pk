@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
 
@@ -14,8 +14,8 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              wawa<span className="text-primary-glow">.pk</span>
+            <h1 className="uppercase text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
+              wawa
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
               Your Complete Business Solution Platform
@@ -31,7 +31,7 @@ const HeroSection = () => {
             <Button size="lg" variant="secondary" className="shadow-hero hover:scale-105 transition-all duration-300">
               Explore Our Services
             </Button>
-            <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white backdrop-blur-sm">
+            <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm">
               Learn More
             </Button>
           </div>

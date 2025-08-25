@@ -49,11 +49,11 @@ const Navbar = () => {
             <button
               onClick={() => scrollToSection("hero")}
               className={cn(
-                "text-2xl font-bold transition-colors duration-300",
+                "text-2xl font-bold transition-colors duration-300 uppercase",
                 isScrolled ? "text-primary" : "text-white"
               )}
             >
-              wawa<span className="text-primary-glow">.pk</span>
+              wawa
             </button>
           </div>
 

@@ -21,7 +21,7 @@ const FooterSection = () => {
             {/* Company Info */}
             <div className="space-y-6">
               <div>
-                <h3 className="text-3xl font-bold mb-4">wawa.pk</h3>
+                <h3 className="text-3xl font-bold mb-4">wawa</h3>
                 <p className="text-white/80 leading-relaxed">
                   Pakistan's leading business technology platform, empowering companies 
                   with innovative marketplace, logistics, and management solutions.
@@ -119,7 +119,7 @@ const FooterSection = () => {
         <div className="border-t border-white/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/80 text-sm">
-              © 2024 wawa.pk. All rights reserved.
+              © 2024 wawa. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-white/80">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
